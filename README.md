@@ -8,7 +8,7 @@
 
 ``Polycube`` is an **open source** software framework that provides **fast** and **lightweight** **network functions** such as bridges, routers, firewalls, and others.
 
-Polycube services, called `cubes`, are based on the recent `BPF` and `XDP` Linux kernel technologies and hence are extremely **efficient**. In addition, cubes are easily **extensible** and **customizable**.
+Polycube services, called `cubes`, are extremely **efficient** because are based on the recent `BPF` and `XDP` Linux kernel technologies. In addition, cubes are easily **extensible** and **customizable**.
 Available cubes include `bridge`, `router`, `nat`, `load balancer`, `firewall`, `DDoS mitigator`, and more.
 
 Cubes can be composed to build arbitrary **service chains** and provide custom network connectivity to **namespaces**, **containers**, **virtual machines**, and **physical hosts**.
@@ -77,4 +77,4 @@ Two complex applications have been released to show the potential of Polycube, `
 - `XDP` (eXpress Data Path) provides a new way to intercept network packets very early in Linux network stack, with a significant gain in performance thanks to the possibility to avoid costly operations such as `skbuff` handling.
 
 ## Licence
-Polycube is licensed under the Apache License, Version 2.0 (ALv2)
+Polycube is licensed under the Apache License, Version 2.0 (ALv2).
